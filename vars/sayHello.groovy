@@ -2,5 +2,5 @@
 
 def call(Map config = [:])
 {
-	echo "hello ${name}"
+	echo "hello ${config.name}"
 }
